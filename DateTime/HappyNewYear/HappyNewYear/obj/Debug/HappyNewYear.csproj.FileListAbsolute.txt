@@ -1,0 +1,7 @@
+D:\MyselfProgram\DateTime\HappyNewYear\HappyNewYear\bin\Debug\HappyNewYear.exe.config
+D:\MyselfProgram\DateTime\HappyNewYear\HappyNewYear\bin\Debug\HappyNewYear.exe
+D:\MyselfProgram\DateTime\HappyNewYear\HappyNewYear\bin\Debug\HappyNewYear.pdb
+D:\MyselfProgram\DateTime\HappyNewYear\HappyNewYear\obj\Debug\HappyNewYear.csprojAssemblyReference.cache
+D:\MyselfProgram\DateTime\HappyNewYear\HappyNewYear\obj\Debug\HappyNewYear.csproj.CoreCompileInputs.cache
+D:\MyselfProgram\DateTime\HappyNewYear\HappyNewYear\obj\Debug\HappyNewYear.exe
+D:\MyselfProgram\DateTime\HappyNewYear\HappyNewYear\obj\Debug\HappyNewYear.pdb

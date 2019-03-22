@@ -1,0 +1,7 @@
+D:\MyselfProgram\C#\SortStringWithNumber\SortStringWithNumber\bin\Debug\SortStringWithNumber.exe.config
+D:\MyselfProgram\C#\SortStringWithNumber\SortStringWithNumber\bin\Debug\SortStringWithNumber.exe
+D:\MyselfProgram\C#\SortStringWithNumber\SortStringWithNumber\bin\Debug\SortStringWithNumber.pdb
+D:\MyselfProgram\C#\SortStringWithNumber\SortStringWithNumber\obj\Debug\SortStringWithNumber.csprojAssemblyReference.cache
+D:\MyselfProgram\C#\SortStringWithNumber\SortStringWithNumber\obj\Debug\SortStringWithNumber.csproj.CoreCompileInputs.cache
+D:\MyselfProgram\C#\SortStringWithNumber\SortStringWithNumber\obj\Debug\SortStringWithNumber.exe
+D:\MyselfProgram\C#\SortStringWithNumber\SortStringWithNumber\obj\Debug\SortStringWithNumber.pdb

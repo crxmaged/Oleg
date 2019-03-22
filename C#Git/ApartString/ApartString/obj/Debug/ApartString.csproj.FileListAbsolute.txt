@@ -1,0 +1,7 @@
+D:\MyselfProgram\C#\ApartString\ApartString\bin\Debug\ApartString.exe.config
+D:\MyselfProgram\C#\ApartString\ApartString\bin\Debug\ApartString.exe
+D:\MyselfProgram\C#\ApartString\ApartString\bin\Debug\ApartString.pdb
+D:\MyselfProgram\C#\ApartString\ApartString\obj\Debug\ApartString.csprojAssemblyReference.cache
+D:\MyselfProgram\C#\ApartString\ApartString\obj\Debug\ApartString.csproj.CoreCompileInputs.cache
+D:\MyselfProgram\C#\ApartString\ApartString\obj\Debug\ApartString.exe
+D:\MyselfProgram\C#\ApartString\ApartString\obj\Debug\ApartString.pdb

@@ -1,0 +1,7 @@
+D:\MyselfProgram\C#\FactorialTrailingZero\FactorialTrailingZero\bin\Debug\FactorialTrailingZero.exe.config
+D:\MyselfProgram\C#\FactorialTrailingZero\FactorialTrailingZero\bin\Debug\FactorialTrailingZero.exe
+D:\MyselfProgram\C#\FactorialTrailingZero\FactorialTrailingZero\bin\Debug\FactorialTrailingZero.pdb
+D:\MyselfProgram\C#\FactorialTrailingZero\FactorialTrailingZero\obj\Debug\FactorialTrailingZero.csprojAssemblyReference.cache
+D:\MyselfProgram\C#\FactorialTrailingZero\FactorialTrailingZero\obj\Debug\FactorialTrailingZero.csproj.CoreCompileInputs.cache
+D:\MyselfProgram\C#\FactorialTrailingZero\FactorialTrailingZero\obj\Debug\FactorialTrailingZero.exe
+D:\MyselfProgram\C#\FactorialTrailingZero\FactorialTrailingZero\obj\Debug\FactorialTrailingZero.pdb

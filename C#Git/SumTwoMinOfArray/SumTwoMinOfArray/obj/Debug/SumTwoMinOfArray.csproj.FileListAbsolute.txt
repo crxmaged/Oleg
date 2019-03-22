@@ -1,0 +1,7 @@
+D:\MyselfProgram\C#\SumTwoMinOfArray\SumTwoMinOfArray\bin\Debug\SumTwoMinOfArray.exe.config
+D:\MyselfProgram\C#\SumTwoMinOfArray\SumTwoMinOfArray\bin\Debug\SumTwoMinOfArray.exe
+D:\MyselfProgram\C#\SumTwoMinOfArray\SumTwoMinOfArray\bin\Debug\SumTwoMinOfArray.pdb
+D:\MyselfProgram\C#\SumTwoMinOfArray\SumTwoMinOfArray\obj\Debug\SumTwoMinOfArray.csprojAssemblyReference.cache
+D:\MyselfProgram\C#\SumTwoMinOfArray\SumTwoMinOfArray\obj\Debug\SumTwoMinOfArray.csproj.CoreCompileInputs.cache
+D:\MyselfProgram\C#\SumTwoMinOfArray\SumTwoMinOfArray\obj\Debug\SumTwoMinOfArray.exe
+D:\MyselfProgram\C#\SumTwoMinOfArray\SumTwoMinOfArray\obj\Debug\SumTwoMinOfArray.pdb

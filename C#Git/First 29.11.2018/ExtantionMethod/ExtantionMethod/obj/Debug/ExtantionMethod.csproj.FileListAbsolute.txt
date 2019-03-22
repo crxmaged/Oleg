@@ -1,0 +1,7 @@
+D:\MyProgram\C#\First 29.11.2018\ExtantionMethod\ExtantionMethod\bin\Debug\ExtantionMethod.exe.config
+D:\MyProgram\C#\First 29.11.2018\ExtantionMethod\ExtantionMethod\bin\Debug\ExtantionMethod.exe
+D:\MyProgram\C#\First 29.11.2018\ExtantionMethod\ExtantionMethod\bin\Debug\ExtantionMethod.pdb
+D:\MyProgram\C#\First 29.11.2018\ExtantionMethod\ExtantionMethod\obj\Debug\ExtantionMethod.csprojAssemblyReference.cache
+D:\MyProgram\C#\First 29.11.2018\ExtantionMethod\ExtantionMethod\obj\Debug\ExtantionMethod.csproj.CoreCompileInputs.cache
+D:\MyProgram\C#\First 29.11.2018\ExtantionMethod\ExtantionMethod\obj\Debug\ExtantionMethod.exe
+D:\MyProgram\C#\First 29.11.2018\ExtantionMethod\ExtantionMethod\obj\Debug\ExtantionMethod.pdb

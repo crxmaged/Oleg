@@ -1,0 +1,10 @@
+D:\MyselfProgram\C#\WebTest\WebTest\bin\Debug\WebTest.exe.config
+D:\MyselfProgram\C#\WebTest\WebTest\bin\Debug\WebTest.exe
+D:\MyselfProgram\C#\WebTest\WebTest\bin\Debug\WebTest.pdb
+D:\MyselfProgram\C#\WebTest\WebTest\bin\Debug\WebDriver.dll
+D:\MyselfProgram\C#\WebTest\WebTest\bin\Debug\WebDriver.xml
+D:\MyselfProgram\C#\WebTest\WebTest\obj\Debug\WebTest.csprojAssemblyReference.cache
+D:\MyselfProgram\C#\WebTest\WebTest\obj\Debug\WebTest.csproj.CoreCompileInputs.cache
+D:\MyselfProgram\C#\WebTest\WebTest\obj\Debug\WebTest.csproj.CopyComplete
+D:\MyselfProgram\C#\WebTest\WebTest\obj\Debug\WebTest.exe
+D:\MyselfProgram\C#\WebTest\WebTest\obj\Debug\WebTest.pdb
