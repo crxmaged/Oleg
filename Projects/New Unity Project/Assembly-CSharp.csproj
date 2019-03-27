@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\ForCub.cs" />
     <Compile Include="Assets\ForSphere.cs" />
+    <Compile Include="Assets\ForWall.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/MyselfProgram/Projects/New Unity Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
