@@ -23,16 +23,15 @@ namespace WpfApp1
 		public MainWindow()
 		{
 			InitializeComponent();
+			new Presenter(this); //this - instance MainWindow
 		}
+
+		public event EventHandler FirstEvent = null; // event
 
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
-
+			FirstEvent.Invoke(sender, e);
 		}
 
-		private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-		{
-
-		}
 	}
 }
