@@ -13,7 +13,7 @@ namespace ThreadTask
 		{
 			while (true)
 			{
-				Console.WriteLine("                     Second thread!");
+				Console.WriteLine("                 {0}", "Second thread!");
 				Thread.Sleep(200);
 			}
 		}
@@ -25,7 +25,7 @@ namespace ThreadTask
 			Thread thread = new Thread(writeSecond);
 			thread.Start();
 
-			for (int i = 0; i < 2; i++)
+			for (int i = 0; i < 10; i++)
 			{
 				Console.WriteLine("Prime thread");
 				Thread.Sleep(200);
@@ -33,7 +33,7 @@ namespace ThreadTask
 
 			thread.IsBackground = true;
 
-			Console.ReadLine();
+			// Console.ReadLine();
 		}
 
 	}
