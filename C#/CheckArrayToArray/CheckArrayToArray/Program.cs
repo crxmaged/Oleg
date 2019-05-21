@@ -82,6 +82,10 @@ namespace CheckArrayToArray
 		{
 			int[] a = null;
 			int[] b = null;
+			/*
+			int[] a = 
+			int[] b = null;
+			*/
 			Console.WriteLine(comp(a, b));
 
 			Console.ReadLine();
