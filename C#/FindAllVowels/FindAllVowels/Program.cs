@@ -11,8 +11,6 @@ namespace FindAllVowels
 		public static int GetVowelCount(string str)
 		{
 			int vowelCount = 0;
-			// a, e, i, o, u
-			// Your code here
 			char[] vowel = {'a', 'e', 'i', 'o', 'u'};
 			char[] text = str.ToArray();
 			for (int i = 0; i < text.Length; i++)
