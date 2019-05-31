@@ -10,10 +10,11 @@ namespace CamelCase
 			string newStr = null, camelCase = null;
 			//str.ToLower();
 			string[] stringArray = str.Split('-', '_', ' ', ',', ':', '*', '%', '+', '=', '`', '&', '^', '>', '<', '/', '#');
+
+			string[] elementOfarrayUP = new string[stringArray.Length], elementOfarrayLow = new string[stringArray.Length];
+
 			for (int i = 0; i < stringArray.Length; i++)
 			{
-				string[] elementOfarrayUP = new string [stringArray.Length];
-				string[] elementOfarrayLow = new string[stringArray.Length];
 				elementOfarrayUP[i] = stringArray[i].ToUpper();
 				elementOfarrayLow[i] = stringArray[i].ToLower();
 				var charArray = stringArray[i].ToCharArray();

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SumOfAllAngles
 {
@@ -10,13 +6,14 @@ namespace SumOfAllAngles
 	{
 		public static int Angle(int n)
 		{
-			if (n > 180)
+			if (n > 2)
 			{
-				return (n/180)+2;
+				// return (n/180)+2; // if want find number angle
+				return 180*(n - 2); // if want find number total sum of angles
 			}
 			else
 			{
-				return 3;
+				return 180;
 			}
 		}
 
