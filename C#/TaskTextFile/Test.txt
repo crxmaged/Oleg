@@ -1,1 +1,5 @@
-A-Za-z0-9 B-Zy-z0-1 Z-Ai-f2-4 N-Wo-p5-7
+The C# examples in this article run in the Try.NET inline code runner and playground. 
+Select the Run button to run an example in an interactive window. Once you execute the code, 
+you can modify it and run the modified code by selecting Run again. The modified code either 
+runs in the interactive window or, if compilation fails, the interactive window displays all 
+C# compiler error messages.

@@ -22,7 +22,9 @@ namespace ApplicationReadTextFromFile
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		public string stringText;
+		public string firstText, secondText;
+		public string[] firstTextToArray; public string[] secondTextToArray;
+		public List<string> sameWord = new List <string>();
 
 		public MainWindow()
 		{
@@ -40,11 +42,8 @@ namespace ApplicationReadTextFromFile
 				textBox.Text = fileName;
 				char[] delimiterChars = { ' ', ',', '.', ':', ';', '|', '=', '+', '*', '&', '?', '`', '!', '/', '%', '#', '$', '\r', '\n'};
 
-				string[] stringArray = File.ReadAllText(fileName).Split(delimiterChars, StringSplitOptions.RemoveEmptyEntries);
-				stringText = File.ReadAllText(fileName);
-				Console.WriteLine();
-
-				// textBoxOutput.Text = File.ReadAllText(fileName);
+				firstTextToArray = File.ReadAllText(fileName).Split(delimiterChars, StringSplitOptions.RemoveEmptyEntries);
+				firstText = File.ReadAllText(fileName);
 			}
 		}
 
@@ -64,11 +63,44 @@ namespace ApplicationReadTextFromFile
 				textBox2.Text = fileName;
 				char[] delimiterChars = { ' ', ',', '.', ':', ';', '|', '=', '+', '*', '&', '?', '`', '!', '/', '%', '#', '$', '\r', '\n' };
 
-				string[] stringArray = File.ReadAllText(fileName).Split(delimiterChars, StringSplitOptions.RemoveEmptyEntries);
+				secondTextToArray = File.ReadAllText(fileName).Split(delimiterChars, StringSplitOptions.RemoveEmptyEntries);
+				secondText = File.ReadAllText(fileName);
 				Console.WriteLine();
 
-				textBoxOutput.Text = File.ReadAllText(fileName) + stringText;
+				for (int i = 0; i < firstTextToArray.Length; i++)
+				{
+					for (int n = 0; n < secondTextToArray.Length; n++)
+					{
+						if (secondTextToArray[n] == firstTextToArray[i])
+						{
+							sameWord.Add(secondTextToArray[n] + " " + GetLineNumber(secondText, secondTextToArray[n]));
+						}
+					}
+				}
+
+				sameWord.Sort();
+
+				var result = String.Join(" ", sameWord.ToArray());
+
+				textBoxOutput.Text = result;
 			}
 		}
+
+		public static int GetLineNumber(string text, string lineToFind, StringComparison comparison = StringComparison.CurrentCulture)
+		{
+			int lineNum = 0;
+			using (StringReader reader = new StringReader(text))
+			{
+				string line;
+				while ((line = reader.ReadLine()) != null)
+				{
+					lineNum++;
+					if (line.Equals(lineToFind, comparison))
+						return lineNum;
+				}
+			}
+			return -1;
+		}
+
 	}
 }

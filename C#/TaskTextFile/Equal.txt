@@ -1,8 +1,3 @@
-A-Za-z0-9 
-B-Zy-z0-1 
-Z-Ai-f2-4 
-N-Wo-p5-7 
-
 This behavior makes it easier for formats like comma separated values (CSV) files representing tabular data. 
 Consecutive commas represent a blank column.
 You can pass an optional StringSplitOptions.RemoveEmptyEntries parameter to exclude any empty strings in the 
