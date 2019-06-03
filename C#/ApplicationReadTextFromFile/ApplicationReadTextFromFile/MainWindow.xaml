@@ -11,11 +11,12 @@
             <ColumnDefinition Width="271*"/>
             <ColumnDefinition Width="521*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="50" Margin="68,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
-        <Button x:Name="button1" Content="Text №1" Grid.Column="1" HorizontalAlignment="Left" Margin="369,45,0,0" VerticalAlignment="Top" Width="104" Height="50" Click="Button_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="50" Margin="68,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+        <Button x:Name="button1" Content="Text №1" Grid.Column="1" HorizontalAlignment="Left" Margin="369,65,0,0" VerticalAlignment="Top" Width="104" Height="50" Click="Button_Click" RenderTransformOrigin="0.462,0.98"/>
         <TextBox x:Name="textBoxOutput" HorizontalAlignment="Left" Height="184" Margin="68,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="675" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" Margin="68,120,0,0" Grid.ColumnSpan="2" RenderTransformOrigin="0.487,0.668"/>
-        <Button x:Name="button2" Content="Text №2" Grid.Column="1" HorizontalAlignment="Left" Margin="369,120,0,0" VerticalAlignment="Top" Width="104" Height="56" Click="button2_Click"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" Margin="68,129,0,0" Grid.ColumnSpan="2" RenderTransformOrigin="0.487,0.668"/>
+        <Button x:Name="button2" Content="Text №2" Grid.Column="1" HorizontalAlignment="Left" Margin="369,129,0,0" VerticalAlignment="Top" Width="104" Height="56" Click="button2_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="68,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="675" Height="40" Grid.ColumnSpan="2"><Run FontSize="22" Text="Program "/><Run FontSize="22" Text="read only "/><Run FontSize="22" Text="file format: .txt"/></TextBlock>
 
     </Grid>
 </Window>

@@ -78,6 +78,8 @@ namespace ApplicationReadTextFromFile
 					}
 				}
 
+
+
 				sameWord.Sort();
 
 				var result = String.Join(" ", sameWord.ToArray());
@@ -88,15 +90,22 @@ namespace ApplicationReadTextFromFile
 
 		public static int GetLineNumber(string text, string lineToFind, StringComparison comparison = StringComparison.CurrentCulture)
 		{
-			int lineNum = 0;
+			int lineNum = 1;
 			using (StringReader reader = new StringReader(text))
 			{
 				string line;
 				while ((line = reader.ReadLine()) != null)
 				{
+					if (line.Contains(lineToFind))
+					{
+						return lineNum;
+					}
+					lineNum++;
+					/*
 					lineNum++;
 					if (line.Equals(lineToFind, comparison))
 						return lineNum;
+						*/
 				}
 			}
 			return -1;
