@@ -14,23 +14,26 @@ namespace RotateAlphabet
 
 		static void Main(string[] args)
 		{
+			Console.WriteLine(Rot13(" While the company has won all of its previous cases, Sillesen foreign " +
+				"companies from doing business in Ukraine."));
 
+			Console.ReadLine();
 		}
 
-		public static string Rot13(string input)
+		public static string Rot13(string input) // method change text to ROT13 decoder
 		{
-			char[] array = input.ToCharArray();
-			char[] arraySecond = new char[array.Length];
-			int[] indexArray = new int[array.Length];
+			char[] array = input.ToCharArray(); // conver sting to char array
+			char[] arraySecond = new char[array.Length]; // creat array to covert after decode and return string
+			int[] indexArray = new int[array.Length]; // convert char array to interger array
 
-			for (int i = 0; i < array.Length; i++)
+			for (int i = 0; i < array.Length; i++) // use cycle for change (decod) elements in array
 			{
 				indexArray[i] = (int)array[i];
-				if (indexArray[i] <= 77)
+				if (indexArray[i] <= 77 && indexArray[i] >= 65)
 				{
 					indexArray[i] = indexArray[i] + 13;
 				}
-				else if (indexArray[i] >= 110)
+				else if (indexArray[i] >= 110 && indexArray[i] <= 122)
 				{
 					indexArray[i] = indexArray[i] - 13;
 				}
@@ -44,13 +47,13 @@ namespace RotateAlphabet
 				}
 			}
 
-			for (int n = 0; n < array.Length; n++)
+			for (int n = 0; n < array.Length; n++) // return from int array to char array
 			{
 				arraySecond[n] = (char)indexArray[n];
 			}
 
-			string s = new string(arraySecond);
-			return s;
+			string s = new string(arraySecond); // convert char array to srting
+			return s; // result
 		}
 	}
 }
