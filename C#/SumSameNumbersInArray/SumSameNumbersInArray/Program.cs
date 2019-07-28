@@ -50,6 +50,7 @@ namespace SumSameNumbersInArray
 		static void Main(string[] args)
 		{
 			SumConsecutives(new List<int> { 1, 4, 4, 4, 0, 4, 3, 3, 1 }).ForEach(Console.WriteLine);
+
 			Console.ReadLine();
 		}
 	}

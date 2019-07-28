@@ -19,10 +19,18 @@ namespace UseDelegateAndEvent.CommonFiles
 			{
 				Thread.Sleep(1000); // mini pause
 				// Call Moving
-				Moving(string.Format("Step {0}", i)); // give that value to univesal method: uniMethod
+				// Moving(string.Format("Step {0}", i)); // give that value to univesal method: uniMethod
+				if (Moving != null)
+				{
+					Moving(this, new MovingEventArgs(string.Format("Step {0}", i))); // shape (forma) of event!
+				}
 			}
 		}
-		// Property Moving 
-		public Action<string> Moving { get; private set; }
+		/*
+		// Property Moving with generic type Action (delegat)
+		public Action<string> Moving { get; set; }
+		*/
+		// creat event/delegate like a property
+		public event EventHandler<MovingEventArgs> Moving; // event-delegate check Megod Student_Moving
 	}
 }

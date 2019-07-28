@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9824F8AF-584C-43DC-B9BB-490548BA0A90}</ProjectGuid>
+    <ProjectGuid>{EBCDD13B-D041-4F6D-BF59-C87022B39AC0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>UseDelegateAndEvent</RootNamespace>
-    <AssemblyName>UseDelegateAndEvent</AssemblyName>
+    <RootNamespace>SimpleEvent</RootNamespace>
+    <AssemblyName>SimpleEvent</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommonFiles\MovingEventArgs.cs" />
-    <Compile Include="CommonFiles\Studet.cs" />
+    <Compile Include="Common\MovingEventArgs.cs" />
+    <Compile Include="Common\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
