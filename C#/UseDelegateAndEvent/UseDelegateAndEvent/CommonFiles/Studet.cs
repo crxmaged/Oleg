@@ -12,7 +12,7 @@ namespace UseDelegateAndEvent.CommonFiles
 
 	public class Studet
 	{
-		// ethod Move - step by student 
+		// method Move - step by student 
 		public void Move (int disrance) // distance count of step 
 		{
 			for (int i = 1; i <= disrance; i++)

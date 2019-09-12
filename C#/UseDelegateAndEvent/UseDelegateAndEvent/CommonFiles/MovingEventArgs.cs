@@ -10,14 +10,14 @@ namespace UseDelegateAndEvent.CommonFiles
 	{
 		public MovingEventArgs()
 		{
-
+			// default constructor
 		}
 
 		public MovingEventArgs(string message)
-		{
+		{ // user constructor 
 			Message = message; 
 		}
 
-		public string Message { get; private set; }
+		public string Message { get; private set; } // auto property
 	}
 }
