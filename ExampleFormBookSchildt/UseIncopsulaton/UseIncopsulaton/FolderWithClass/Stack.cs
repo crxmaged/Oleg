@@ -15,49 +15,50 @@ namespace UseIncopsulaton.FolderWithClass
 		{
 
 		}
-		public Stack (int size)
+		public Stack (int size) // set size stack (array)
 		{
 			strk = new char[size]; // instance
 			tos = 0;
 		}
 
-		public void Push (char ch)
+		public void Push (char ch) // set element fakeStack
 		{
 			if (tos == strk.Length)
 			{
-				Console.WriteLine("Stack is full");
-				return;
+				Console.WriteLine("Stack is full"); // if we set last element
+				return; // break method)))
 			}
-			strk[tos] = ch; tos++;
+			strk[tos] = ch;
+			tos++; // if IsFull == true loop end in main method
 		}
 
-		public char Pop ()
+		public char Pop () // get elements from fakeStack
 		{
 			if (tos == 0)
 			{
-				Console.WriteLine("Stack is empty!");
-				return (char)0;
+				Console.WriteLine("Stack is empty!"); // if we catch last element of fakeStack
+				return (char)0; // break method)))
 			}
 			tos--;
 			return strk[tos];
 		}
 
-		public bool IsFull()
+		public bool IsFull() // check for loop
 		{
 			return tos == strk.Length;
 		}
 
-		public bool IsEmpty()
+		public bool IsEmpty() // check for loop
 		{
 			return tos == 0;
 		}
 
-		public int Capacity()
+		public int Capacity() // if we want to see current value
 		{
 			return strk.Length;
 		}
 
-		public int GetNun()
+		public int GetNum() // Num position of element in array "fakeStack
 		{
 			return tos;
 		}

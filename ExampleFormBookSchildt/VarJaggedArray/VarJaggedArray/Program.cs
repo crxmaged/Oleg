@@ -16,8 +16,8 @@ namespace VarJaggedArray
 				for (int i = 0; i < jagged[j].Length; i++) // jagged[0].Length = 4, jagged[1].Length = 3, jagged[2].Length = 5
 				{
 					Console.Write("{0} ", jagged[j][i]);
-					Console.WriteLine();
 				}
+				Console.WriteLine("|");
 			}
 			Console.ReadLine();
 		}
