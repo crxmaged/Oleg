@@ -4,7 +4,7 @@ using OverloadBool.CommonFiles;
 namespace OverloadBool
 {
 	class Program
-	{
+	{ // show how overload default bool operators true, false abd dicrement 
 		static void Main(string[] args)
 		{
 			YesOrNo Point_A = new YesOrNo(12, 14, 16);
