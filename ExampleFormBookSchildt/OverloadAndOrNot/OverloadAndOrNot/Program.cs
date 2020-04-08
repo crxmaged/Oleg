@@ -3,7 +3,7 @@
 namespace OverloadAndOrNot
 {
 	class Program
-	{
+	{ // Overload operators: AND, OR, NOT
 		static void Main(string[] args)
 		{
 			ClassForOver Point_A = new ClassForOver(1, 2 , 3);
