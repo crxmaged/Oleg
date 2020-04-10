@@ -6,7 +6,7 @@ namespace AlmostSimpleExample.FolderWithClass
 	{
 		int val;
 
-		public BitFour()
+		public BitFour() // constructors
 		{
 			val = 0;
 		}
@@ -18,7 +18,7 @@ namespace AlmostSimpleExample.FolderWithClass
 		}
 
 		public static BitFour operator + (BitFour LeftOp, BitFour RightOp)
-		{
+		{ // overload addition both arguments are object
 			BitFour result = new BitFour();
 
 			result.val = LeftOp.val + RightOp.val;
@@ -28,7 +28,7 @@ namespace AlmostSimpleExample.FolderWithClass
 		}
 
 		public static BitFour operator + (BitFour LeftOp, int RightOp)
-		{
+		{ // overload addition arguments are object and int
 			BitFour result = new BitFour();
 
 			result.val = LeftOp.val + RightOp;
@@ -38,7 +38,7 @@ namespace AlmostSimpleExample.FolderWithClass
 		}
 
 		public static BitFour operator + (int LeftOp, BitFour RightOp)
-		{
+		{ // overload addition arguments are int and object
 			BitFour result = new BitFour();
 
 			result.val = LeftOp + RightOp.val;
@@ -48,7 +48,7 @@ namespace AlmostSimpleExample.FolderWithClass
 		}
 
 		public static BitFour operator ++ (BitFour OneOp)
-		{
+		{ // overload increment
 			BitFour result = new BitFour();
 
 			result.val = OneOp.val + 1;
@@ -58,7 +58,7 @@ namespace AlmostSimpleExample.FolderWithClass
 		}
 
 		public static bool operator > (BitFour LeftOp, BitFour RightOp)
-		{
+		{ // overload > both arguments are object
 			if (LeftOp.val > RightOp.val)
 			{
 				return true;
@@ -70,7 +70,7 @@ namespace AlmostSimpleExample.FolderWithClass
 		}
 
 		public static bool operator < (BitFour LeftOp, BitFour RightOp)
-		{
+		{ // overload < both arguments are object
 			if (LeftOp.val < RightOp.val)
 			{
 				return true;
@@ -82,12 +82,12 @@ namespace AlmostSimpleExample.FolderWithClass
 		}
 
 		public static implicit operator int (BitFour OnewOp)
-		{
+		{ // implicit from object to int 
 			return OnewOp.val;
 		}
 
 		public static implicit operator BitFour(int OneArg)
-		{
+		{ // implicit from int to object 
 			return new BitFour (OneArg);
 		}
 	}

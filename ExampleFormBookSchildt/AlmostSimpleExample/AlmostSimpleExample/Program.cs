@@ -4,7 +4,7 @@ using AlmostSimpleExample.FolderWithClass;
 namespace AlmostSimpleExample
 {
 	class Program
-	{
+	{ // program show how we use many overloads and implicits for change value from default value to users
 		static void Main(string[] args)
 		{
 			BitFour FirstObj = new BitFour(11);
