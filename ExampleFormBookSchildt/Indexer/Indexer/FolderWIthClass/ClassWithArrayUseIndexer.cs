@@ -11,7 +11,7 @@ namespace Indexer.FolderWIthClass
 
 		public ClassWithArrayUseIndexer()
 		{
-
+			// default constructor
 		}
 
 		public ClassWithArrayUseIndexer (int size)
