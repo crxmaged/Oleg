@@ -9,7 +9,7 @@ namespace S_10_1_OverloadIndexers
 		{
 			WorkWithIndexers ArrayObj = new WorkWithIndexers(13); // creat array 13 length
 			Random random = new Random();
-
+			// set value to array
 			for (int i = 0; i < ArrayObj.length; i++)
 			{
 				ArrayObj[i] = random.Next(333, 444);
@@ -22,6 +22,7 @@ namespace S_10_1_OverloadIndexers
 			Console.WriteLine(ArrayObj[3.7]); // show value array
 			// Show all elements of array
 			Console.WriteLine("All array elements");
+			// Show all elements off array
 			for (int i = 0; i < ArrayObj.length; i++)
 			{
 				Console.Write(ArrayObj[i] + "; ");
