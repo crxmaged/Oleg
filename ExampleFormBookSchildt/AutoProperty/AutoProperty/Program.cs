@@ -9,7 +9,7 @@ namespace AutoProperty
 		{ // Use autoProperty Lenght and CheckError
 			UseAutoProperty ObjArray = new UseAutoProperty(12);
 			Console.Write("[ ");
-			for (int i = 0; i < ObjArray.Lenght + 1; i++)
+			for (int i = 0; i < ObjArray.Lenght + 1; i++)s
 			{
 				ObjArray[i] = 10 * i; // use indexer to set value of array members
 				Console.Write(" {0};", ObjArray[i]);
