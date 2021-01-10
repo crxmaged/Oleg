@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FF104D71-ABB9-4F8E-A13F-67BF4877E015}</ProjectGuid>
+    <ProjectGuid>{B2C12819-02CA-41ED-BFD2-EFD28FFC00B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConstructorInheritanceClass</RootNamespace>
-    <AssemblyName>ConstructorInheritanceClass</AssemblyName>
+    <RootNamespace>OverloadConstructorsUseBase</RootNamespace>
+    <AssemblyName>OverloadConstructorsUseBase</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inher\Boss.cs" />
-    <Compile Include="Inher\Pisduk.cs" />
+    <Compile Include="FolderForTwoClass\ClassBase.cs" />
+    <Compile Include="FolderForTwoClass\ClassInheritance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
